@@ -3,6 +3,12 @@
 ###############################################################################
 version: '3.1'
 services:
+    memcached:
+        image: 'memcached:alpine'
+
+    clickhouse:
+        image: 'yandex/clickhouse-server:latest'
+
     webserver:
         image: 'nginx:alpine'
         working_dir: /application

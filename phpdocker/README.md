@@ -39,6 +39,7 @@ You'll need to configure your application to use any services you enabled:
 Service|Hostname|Port number
 ------|---------|-----------
 php-fpm|php-fpm|9000
+Memcached|memcached|11211 (default)
 
 # Docker compose cheatsheet #
 
