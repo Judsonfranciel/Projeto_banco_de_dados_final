@@ -108,7 +108,7 @@ if(!empty($_GET['search']))
             </tbody>
         </table>
     </div>
-    <a href="home.php"><img src="icones/arrow-return-left.svg" alt="Voltar" width="40" height="40"></a>
+    <a href="index.php"><img src="icones/arrow-return-left.svg" alt="Voltar" width="40" height="40"></a>
 </body>
 </html>
 

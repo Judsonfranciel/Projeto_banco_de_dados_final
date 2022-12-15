@@ -23,7 +23,7 @@
         $result = mysqli_query($conexao, "INSERT INTO aluno(RA,Nome_aluno,Sobrenome_aluno,Sexo,CPF,Endereco,Rua,Num,CEP,Filiacao,Status,Contato,Telefone) 
         VALUES ('$RA','$Nome_aluno','$Sobrenome_aluno','$Sexo','$CPF','$Endereco','$Rua','$Num','$CEP','$Filiacao','$Status','$Contato','$Telefone')");
 
-    header('Location: home.php');
+    header('Location: index.php');
    
     }
 
@@ -117,7 +117,7 @@
     <div class="box">
         <form action="create.php" method="POST">
             <fieldset>
-                <legend><b>Cadastrar Aluno</b></legend>
+                <legend><b>CADASTRAR ALUNO</b></legend>
                 <br>
 
 
@@ -201,7 +201,7 @@
             </fieldset>
         </form>
     </div>
-    <a href="home.php"><img src="icones/arrow-return-left.svg" alt="Voltar" width="40" height="40"></a>
+    <a href="index.php"><img src="icones/arrow-return-left.svg" alt="Voltar" width="40" height="40"></a>
     
 </body>
 </html>
